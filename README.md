@@ -1,0 +1,1 @@
+Todo lo que se aloje en este repositorio va a ser montado en la carpeta de DAGS de un cluster de Apache AIRFLOW. El parser de airflow va a intentar compilar todos los archivos de todos los directorios que aqui se generen

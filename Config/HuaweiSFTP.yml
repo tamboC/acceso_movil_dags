@@ -1,0 +1,35 @@
+# Flag para apuntar a los servidores primarios o secundarios.
+# Sólo se utiliza cuando se switchea de MAEs
+
+workingPrimario: true # true indica que los MAEs operativos son los primarios de San Lorenzo
+                      # Para apuntar a los servidores de Hornos, pone en false
+
+# Servidores MAE / IPs para SFTPs de backups de red
+myHostname:
+  -
+    ip: "10.75.98.25"   # AMBA San Lorenzo
+    mae: AMBA
+    primario: true
+  -
+    ip: "10.75.98.95"   # MEDI San Lorenzo
+    mae: MEDI
+    primario: true
+  -
+    ip: "10.75.102.11"  # AMBA Hornos
+    mae: AMBA
+    primario: false
+  -
+    ip: "10.75.102.32"  # MEDI Hornos
+    mae: MEDI
+    primario: false
+
+# Usuario y contraseña para SFTP (sólo lectura)
+myUsername: ftpuser
+myPassword: Changeme_123
+
+# Rutas
+localFilePath: /io/cel_amovil/tmp/XMLs_Huawei/
+remoteFilePath: /export/home/omc/var/fileint/cm/0/
+
+# Máscara para obtener el archivo en la ruta de origen
+templateArchivoHuawei: NBIExport_XML_RT.zip

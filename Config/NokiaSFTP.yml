@@ -1,0 +1,15 @@
+# Servidor SFTPs
+myHostname: "10.24.2.39"       
+
+# Usuario y contraseña para SFTP (sólo lectura)
+myUsername: ftirpuser
+myPassword: Nbi3gpp+
+
+# Rutas
+localFilePath: /io/cel_amovil/tmp/XMLs_Nokia/
+remoteFilePath: /home/ftirpuser/
+
+# Máscara para obtener el archivo en la ruta de origen
+templateArchivoNokia: 
+  - Symbolic
+  - Topology

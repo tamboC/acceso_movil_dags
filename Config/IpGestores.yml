@@ -1,0 +1,8 @@
+# Ip de gestores Huawei
+gestoresHuawei:
+  -
+    ip: "10.75.98.19"   # AMBA San Lorenzo
+    mae: AMBA
+  -
+    ip: "10.75.98.89"   # MEDI San Lorenzo
+    mae: MEDI

@@ -1,0 +1,27 @@
+# Path donde se dejan los logs
+io_path_log: /io/cel_amovil/tmp/logs_ADRN/      
+
+# Vendor y tecnologías disponibles
+tech:
+  - 2G
+  - 3G
+  - 4G
+  - 5G
+
+vendor:
+  - H
+  - N
+
+# Templates que se filtran en los logs para consultar el history y enviar por correo
+template_q:
+  - Default
+  - enDespliegue
+  - 3911B_eRAN15
+  - Eventos
+
+# Templates que se filtran para consultar los parámetros en IGA para contar y mandar a Grafana
+templateList:
+  - ["Default"]
+  - ["enDespliegue"]
+  - ["3911B_eRAN15"]
+  - ["Eventos"]
